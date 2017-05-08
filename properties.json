@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"minprice": "300",
+		"maxprice": "900",
+		"minsize": "15"
+	},
+	"properties": 
+	[
+		{
+			"baseurl": "http://www.point4rent.nl",
+			"postingsurl": "http://www.point4rent.nl/aanbod/huur?field_aanbod_plaatsnaam_tid=28&field_aanbod_woonoppervlakte_value=All&field_aanbod_huurprijs_value=All",
+			"postingdiv": " col-xs-12 col-sm-6 col-md-4 col-lg-3",
+			"pricedivclass": "field field-name-field-aanbod-huurprijs field-type-number-integer field-label-hidden",
+			"sizedivclass": "field field-name-field-aanbod-woonoppervlakte field-type-number-decimal field-label-hidden",
+			"linkdivclass": "field field-name-node-link field-type-ds field-label-hidden",
+			"islinkrelative": "1"
+		}
+	]	
+}
