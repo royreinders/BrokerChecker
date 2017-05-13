@@ -94,11 +94,6 @@ def get_postings(url, classname):
     return postings
 
 
-# Read parameters to use to get postings from file
-def get_posting_properties():
-    print "test"
-
-
 # Read properties from properties.json and start parsing and checking the postings
 def read_properties():
     with open('properties.json') as data_file:
